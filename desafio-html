@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML</title>
+</head>
+<body>
+        <!-- TITULO DO TRABALHO -->
+        <h1>Desafio HTML</h1>
+        <hr/> <!--linha abaixo do texto-->
+
+        <!------------------------------------------------->
+        <h2 id="indice">Índice</h2>
+
+        <ul>
+            <!--Criando as listas e usando ancoras <a> -->
+            <li><a href="#palavras">Treinando o tamanho das palavras;</a></li>
+            <li><a href="#ancoras">Treinando as âncoras; </a></li>
+            <li><a href="#referencias">Referências Externas;</a></li>
+        </ul>
+        <hr />
+
+        <!------------------------------------------------->
+
+        <h2 id="palavras">Treinando o tamanho das palavras</h2>
+        <small><a href="#indice">(Índice)</a></small>
+
+        <p>Para destacar os titulos e textos da sua pagina
+           podemos usar &lt h1 &gt a &lt h6 &gt ;
+        </p>
+        <hr>
+
+        <h2 id="ancoras">Treinando as âncoras</h2>
+        <small><a href="#indice">(Índice)</a></small>
+
+        <p>Para saltar entre os textos da pagina use 
+            &lt a href= "#nomeBemEscolhido"&gt, depois 
+            referencie esse nome no local escolhido 
+            com &lt id= "nomeBemEscolhido" &gt ;
+        </p>
+        <hr>
+
+        <!------------------------------------------------->
+
+        <h2 id="referencias">Referências</h2>
+            <small><a href="#indice">(Índice)</a></small>
+
+        <ul>
+            <li>
+                <a href="https://www.w3.org/" title="Clique aqui!" target="_blank"><b>W3C</b></a>
+            </li>
+            <li>
+                <a href="https://youtu.be/a29-lfFi9Qc" target="_blank">Aula de criação de site</a>
+            </li>
+        </ul>
+</body>
+</html>
+
+
+
+
